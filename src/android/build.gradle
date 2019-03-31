@@ -37,4 +37,7 @@ dependencies {
     compile 'com.google.android.gms:play-services:12.0.1'
 }
 
-apply plugin: 'com.google.gms.google-services'
+cdvPluginPostBuildExtras.add({
+    apply plugin: 'com.google.gms.google-services'
+    apply plugin: 'io.fabric'
+})
