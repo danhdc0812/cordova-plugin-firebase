@@ -28,6 +28,9 @@ android {
         targetCompatibility = '1.7'
         sourceCompatibility = '1.7'
     }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
 }
 
 
