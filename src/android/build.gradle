@@ -37,8 +37,3 @@ dependencies {
 }
 
 apply plugin: 'com.google.gms.google-services'
-
-cdvPluginPostBuildExtras.add({
-    apply plugin: 'com.google.gms.google-services'
-    apply plugin: 'io.fabric'
-})
