@@ -1,40 +1,27 @@
 
 buildscript {
     repositories {
-        mavenCentral()
-        maven {
-            url "https://maven.google.com"
-        }
         jcenter()
+        mavenCentral()
     }
-
     dependencies {
         classpath 'com.android.tools.build:gradle:+'
         classpath 'com.google.gms:google-services:4.1.0'
     }
 }
-
-// Allow plugins to declare Maven dependencies via build-extras.gradle.
-allprojects {
-    repositories {
-        mavenCentral()
-        maven {
-            url "https://maven.google.com"
-        }
-        jcenter()
+repositories {
+    mavenCentral()
+    maven {
+        url "https://maven.google.com"
     }
 }
 
-
-
 dependencies {
-    compile 'com.google.firebase:firebase-core:+'
     compile 'me.leolin:ShortcutBadger:1.1.4@aar'
     compile 'com.google.firebase:firebase-auth:+'
     compile('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
        transitive = true
     }
-    compile 'com.google.android.gms:play-services:12.0.1'
 }
 
 cdvPluginPostBuildExtras.add({
