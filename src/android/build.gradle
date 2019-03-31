@@ -17,6 +17,18 @@ repositories {
     }
 }
 
+android {
+    defaultConfig {
+        multiDexEnabled true
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
 dependencies {
     compile 'me.leolin:ShortcutBadger:1.1.4@aar'
     compile 'com.google.firebase:firebase-auth:+'
