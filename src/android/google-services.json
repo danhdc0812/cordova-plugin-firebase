@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "729824352494-99r13r7dhctfina5vnd1q23ecioanl34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "push.notification.cordova",
+            "certificate_hash": "be829e23195bee486aee3e1a577b36beae9a6306"
+          }
+        },
+        {
+          "client_id": "729824352494-qu43c37b4jigbbut4bvubv40hkcn8j3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "push.notification.cordova",
+            "certificate_hash": "8200aaef334c6a448346da304965b4632ca4c903"
+          }
+        },
+        {
           "client_id": "729824352494-k4ir9e60k16fj2mq0fkiq06j4nd42ebt.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +45,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729824352494-k4ir9e60k16fj2mq0fkiq06j4nd42ebt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
